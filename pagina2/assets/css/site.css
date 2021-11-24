@@ -1,0 +1,803 @@
+/*
+*{
+    outline: 1px solid red;
+}
+
+/* SECCION 0: MENU */
+.logo-menu{
+    height: 70px;
+}
+
+#menu{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.menu-letra{
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-right: 56px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#6C63FF;
+    font-size: 12px;
+}
+
+
+/* SECCION 1: PORTADA */
+
+#portada
+{
+    background: linear-gradient(70deg, rgb(252, 248, 248), rgb(226, 214, 245));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.palabra-were{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color:#6C63FF;
+}
+
+.btn-email{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.letra-portada{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 116px;
+}
+
+.letra-subportada{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.letra-email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color:#6C63FF;
+}
+
+.letra-boton-p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    background-color: #6C63FF;
+}
+
+.letra-boton-p:hover
+{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-weight: bold;
+}
+
+.letra-playvideo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.padding-portada{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+/* SECCION 2: PRESENTACIÓN */
+
+.padding-presentacion{
+    padding: 120px;
+}
+
+.margin-presentacion{
+    margin-bottom: 3rem;
+}
+.letra-h2-presentacion{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    max-width: 700px;
+    color:#444444;
+}
+
+.letra-p-subpre{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    max-width: 800px;
+}
+
+.letra-link-presentacion{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color:#6C63FF;
+}
+
+a.color-lila:hover{
+    color:black;
+}
+
+/* SECCION 3: EMPLEADOS */
+
+.margin-empleados{
+    margin-top: 1rem;
+}
+
+.fotos-empleados{
+    max-width: 1000px;
+}
+
+.letra-empleados{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #444444;
+}
+
+.letra-subEmpleados{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color:#6C63FF;
+}
+
+/* SECCION 4: LABOR  */
+
+.padding-labor{
+    padding: 120px;
+}
+
+.letra-labor{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 45px;
+    color: #444444;
+    max-width: 900px;
+}
+
+/* SECCION 5: PRODUCTOS */
+
+.margin-productos{
+    margin-top: 3rem;
+}
+
+.boton-productos{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: white;
+    border: 2px solid #444;
+    background-color: transparent;
+    color: #333;
+    text-shadow: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.boton-productos:hover
+{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-weight: bold;
+}
+
+.padding-productos{
+    padding-top:60px;
+}
+
+.row-personal{
+    --bs-gutter-x: 0rem;
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+/* SECCION 6: BENEFICIOS */
+
+.padding-beneficios{
+        padding: 120px;
+}
+
+.padding-beneficios2{
+    padding: 60px;
+}
+
+.letra-beneficios{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 45px;
+    color: #444444;
+    max-width: 900px;
+}
+
+/* SECCION 7: CARACTERISTICAS */
+
+.imagen-caracteristicas{
+    background-image: url(../img/main-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+.letra-caracteristicas{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.padding-caracteristicas{
+    padding: 4rem;
+}
+
+.iconos-caracteristicas{
+    font-size: 20px; 
+    color:#6C63FF;
+}
+
+/* SECCION 8: CALL-TO-ACTION */
+
+.fondo-call-to-action{
+    background-color: #282828;
+}
+
+.letra-call-to-action{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    color:white;
+    max-width: 800px;
+    letter-spacing: 1px
+}
+
+.boton-call-to-action{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    top: -3px;
+    border-color: #F9F9F9;
+    color: #F9F9F9;
+    border-radius: 23px;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 8px 26px;
+    text-shadow: none;
+    position: relative;
+}
+
+.boton-call-to-action:hover
+{
+    background-color: white;
+    color: #444;
+    font-weight: bold;
+}
+
+.padding-call-to-action{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* SECCION 9: TESTIMONIOS */
+
+#testimonios{
+    background-image: url("../img/testimonios.jpg");
+    height: 70vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+    background-position: 0px -10.086px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+   
+.letra-testimonios{
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    color: white;
+}
+
+/* SECCION 10: BLOGS */
+
+.letra-intro-blog{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+}
+
+.letra-1-blog{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.letra-2-blog{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #444444;
+}
+
+.letra-link-blog{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#6C63FF;
+}
+
+a.letra-link-blog:hover{
+    color: black;
+}
+
+.padding-blog{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+/* SECCION 11: PATROCINADORES */
+
+.padding-patrocinadores{
+    padding-top: 15rem;
+}
+
+/* SECCION 12: LOCALIZACIÓN */
+
+.padding-localizacion{
+    padding-top: 6.5rem;
+}
+
+.letra-1-loc{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #444444;
+}
+
+.letra-2-loc{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #555555;
+}
+
+.letra-3-loc{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #555555;
+}
+
+.texto-loc{
+    font-size: 16px; 
+    line-height: 1.7;
+}
+
+.direccion-loc{
+    line-height: 1.7;
+}
+
+.padding-loc{
+    padding: 3rem;
+}
+
+.margin-loc{
+    margin-top: 3rem;
+}
+
+/* SECCION 13: CONTACTO 1 */
+
+.padding-contacto1{
+    padding-top: 5rem;
+}
+
+.border-form-control{
+    height: 48px;
+    padding: 8px 4px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    background-color: transparent !important;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom-width: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+}
+
+.margin-cont{
+    max-width: 900px;
+}
+
+.letra-contacto1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color:#555555
+}
+
+.letra-ult-contacto1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.boton-contacto1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: white;
+    border: 2px solid #444;
+    background-color: transparent;
+    color: #333;
+    text-shadow: none;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.boton-contacto1:hover
+{
+    background-color: rgb(63, 60, 60);
+    color: white;
+    font-weight: bold;
+}
+
+/* SECCION 14: CONTACTO 2 */
+
+.padding-contacto2{
+    padding: 80px 0;
+}
+
+.letra-1-contacto2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.letra-2-contacto2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.iconos-contacto2{
+    color: white;
+}
+
+.boton-contacto2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    top: -3px;
+    border-color: #F9F9F9;
+    color: #F9F9F9;
+    border-radius: 23px;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 8px 26px;
+    text-shadow: none;
+}
+
+.boton-contacto2:hover
+{
+    background-color: white;
+    color: #444;
+    font-weight: bold;
+}
+
+#contacto2{
+    background-color: #282828;
+}
+
+.lista-contacto2{
+    padding-left: 0;
+    list-style: none;
+}
+
+a.letra-2-contacto2:hover{
+    color: white;
+}
+
+/* SECCION 15: FOOTER */
+
+.padding-footer{
+    padding: 40px 0;
+}
+
+.letra-footer{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color:rgba(255, 255, 255, 0.4);
+}
+
+#boton1{
+    padding: 9px 32px;
+    line-height: 34px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.texto-formulario{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.links-nohiper{
+    text-decoration: none;
+}
+
+.color-footer{
+    background-color: #202020;
+}
+
+
+/* Media-queries */
+/* XS */
+@media (min-width: 300px) {
+    .letra-call-to-action{
+        font-size: 14px;
+    }
+
+    .letra-portada{
+        font-size: 60px;
+    }
+
+    .logo5{
+        max-width: 100%;
+    }
+
+    .logo6{
+        max-width: 100%;
+    }
+
+    .boton-call-to-action{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .letra-h2-presentacion{
+        font-family: 'Lato', sans-serif;
+        max-width: 500px;
+        font-size: 30px;
+    }
+}
+/* SM */
+@media (min-width: 576px) {
+    .letra-call-to-action{
+        font-size: 15px;
+    }
+
+    .letra-portada{
+        font-size: 60px;
+    }
+
+    .letra-testimonios
+    {
+        font-size: 22px;
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .letra-cita-testimonios
+    {
+        color: rgb(207, 203, 203);
+        width: 400px;
+        margin-left: 100px;
+    }
+
+    .logo4{
+        max-width: 100%;
+    }
+
+    .logo5{
+        max-width: 100%;
+    }
+
+    .logo6{
+        max-width: 100%;
+    }
+}
+/* MD */
+@media (min-width: 768px) { 
+    .letra-call-to-action{
+        font-size: 20px;
+    }
+
+    .letra-portada{
+        font-size: 80px;
+    }
+
+    .letra-testimonios
+    {
+        font-size: 22px;
+        width: 418px;
+        margin-left: 200px;
+    }
+
+    .letra-cita-testimonios
+    {
+        color: rgb(207, 203, 203);
+        width: 418px;
+        margin-left: 200px;
+    }
+
+    .logo3{
+        max-width: 90%;
+    }
+
+    .logo4{
+        max-width: 90%;
+    }
+
+    .logo5{
+        max-width: 90%;
+    }
+
+    .logo6{
+        max-width: 90%;
+    }
+    
+}
+/* LG */
+@media (min-width: 992px) { 
+    .letra-call-to-action{
+        font-size: 20px;
+    }
+
+    .letra-portada{
+        font-size: 100px;
+    }
+
+    .letra-testimonios
+    {
+        font-size: 22px;
+        width: 318px;
+        margin-left: 300px;
+
+    }
+
+    .letra-cita-testimonios
+    {
+        color: rgb(207, 203, 203);
+        width: 318px;
+        margin-left: 300px;
+    }
+
+    .logo2{
+        max-width: 90%;
+    }
+
+    .logo3{
+        max-width: 90%;
+    }
+
+    .logo4{
+        max-width: 90%;
+    }
+
+    .logo5{
+        max-width: 90%;
+    }
+
+    .logo6{
+        max-width: 90%;
+    }
+}
+/* XL */
+@media (min-width: 1200px) { 
+    .letra-call-to-action{
+        font-size: 30px;
+    }
+
+    .letra-portada{
+        font-size: 116px;
+    }
+
+    .letra-testimonios
+    {
+        font-size: 22px;
+        width: 598px;
+        margin-left: 200px;
+
+    }
+
+    .letra-cita-testimonios
+    {
+        color: rgb(207, 203, 203);
+        width: 598px;
+        margin-left: 200px;
+    }
+
+    .logo1{
+        max-width: 90%;
+    }
+
+    .logo2{
+        max-width: 90%;
+    }
+
+    .logo3{
+        max-width: 90%;
+    }
+
+    .logo4{
+        max-width: 90%;
+    }
+
+    .logo5{
+        max-width: 90%;
+    }
+    
+    .logo6{
+        max-width: 90%;
+    }
+    .letra-h2-presentacion{
+        font-size: 30px;
+        max-width: 900px;
+    }
+}
+
